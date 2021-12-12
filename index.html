@@ -6,6 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FakeStore</title>
+
+  <!-- FontAwesom -->
+  <script src="https://kit.fontawesome.com/9e0e31f0fa.js" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="./css/style.css" />
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -15,10 +19,37 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Google Oswald Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+
+<!-- Google Font Urbanist -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+
+
+</style>
+
 </head>
 
+
 <body>
-  <header></header>
+  <header>
+    <section class="titleBar">
+      <div>
+        <h1 id="title" class="text-center">Confianza <i class="fas fa-hands-helping"></i> E-shop</h1>
+      </div>
+      <div id="detailItem">
+        
+      </div>
+    </section>
+  </header>
   <main class="main">
     <div class="search-field">
       <div class="search-box">
@@ -29,10 +60,10 @@
         </button>
       </div>
     </div>
-    <div class="row">
+    <div class="row mt-5">
       <div class="col-md-9 col-lg-9 col-sm-7">
-        <div id="all-products" class="">
-          <h1></h1>
+        <div id="all-products">
+          
         </div>
       </div>
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
@@ -50,7 +81,7 @@
             <tbody>
               <tr>
                 <th>Total Added-Products:</th>
-                <td>$ <span id="total-Products">0</span></td>
+                <td id="total-Products">0</td>
                 <td></td>
                 <td></td>
               </tr>
@@ -79,14 +110,16 @@
               </tr>
             </tbody>
           </table>
-          <div class="parces text-center">
-            <button class="btn btn-primary text-center">Buy Now</button>
+          <div id="btn" class="parces text-center">
+            <button class="btn text-center"> <i class="fas fa-cart-plus"></i> Buy Now</button>
           </div>
         </div>
       </div>
     </div>
   </main>
-  <footer></footer>
+  <footer>
+    
+  </footer>
 
   <!-- add javascript  file  -->
   <script src="./js/app.js"></script>
